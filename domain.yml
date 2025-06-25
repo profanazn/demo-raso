@@ -43,7 +43,15 @@ responses:
     - text: "Sou um assistente virtual criado para ajudar você."
   utter_goodbye:
     - text: "Até logo! Se precisar, estou por aqui."
-    
+  utter_greet:
+    - text: "Greet"
+  utter_happy:
+    - text: "Happy"
+  utter_cheer_up:
+    - text: "Aqui vai uma piada para animar: Por que o JavaScript foi ao terapeuta? Porque tinha problemas com 'this'. 😄"
+  utter_did_that_help:
+    - text: "Isso te ajudou?"
+
 actions:
   - utter_saudar
   - utter_pedir_pizza
@@ -53,7 +61,11 @@ actions:
   - utter_cancelar_pedido
   - utter_iamabot
   - utter_goodbye
-  
+  - utter_greet
+  - utter_happy
+  - utter_cheer_up
+  - utter_did_that_help
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
